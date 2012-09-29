@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <TextView 
+        android:id="@+id/joinit_sign_up"
+        android:layout_width="wrap_content" 
+        android:layout_height="50dp"
+        android:text="@string/joinit_sign_up" 
+        android:background="#6D84B4" />
+    
+    <EditText
+        android:id="@+id/first_name"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:hint="@string/first_name" />  
+        
+    <EditText
+        android:id="@+id/last_name"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:hint="@string/last_name" />
+    
+    <EditText
+        android:id="@+id/email"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:hint="@string/email" />
+    
+    <EditText
+        android:id="@+id/sex"
+        android:layout_height="wrap_content" 
+        android:layout_width="fill_parent"
+        android:hint="@string/sex" />
+    
+    <DatePicker
+        android:id="@+id/birth_date"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:hint="@string/birth_date" />
+    
+    <EditText 
+        android:id="@+id/password"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:hint="@string/password" />
+    
+    <Button 
+        android:id="@+id/sign_up_registration_button"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:text="@string/registration"
+        android:onClick="onClickRegister" />    
+        
+</LinearLayout>

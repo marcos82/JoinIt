@@ -1,0 +1,24 @@
+<resources>
+
+    <string name="app_name">JoinIt</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="my_message">Mio messaggio</string>
+    <string name="button_send">Send</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_display_message">My message</string>
+    <string name="login_button">Login</string>
+    <string name="login_sign_up">Sign up</string>
+    <string name="title_activity_display_login">DisplayLoginActivity</string>
+    <string name="title_activity_display_sign_up">DisplaySignUpActivity</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="email">Email</string>
+    <string name="sex">Sex</string>
+    <string name="birth_date">Date of birth</string>
+    <string name="password">Password</string>
+    <string name="registration">Registration</string>
+    <string name="joinit_sign_up">Sign up to Joinit</string>
+    <string name="server">http://94.33.10.128:8094/joinIt/</string>
+
+</resources>
